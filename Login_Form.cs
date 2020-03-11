@@ -46,7 +46,11 @@ namespace CSharp_Student_System
 
             if(table.Rows.Count > 0)
             {
-                MessageBox.Show("YES");
+                //if this user exists
+                //we will set the dialogResult to OK
+                //that mean the login informations are correct _> open the mainform
+                //see program.cs
+                this.DialogResult = DialogResult.OK;
             }
             else
             {
