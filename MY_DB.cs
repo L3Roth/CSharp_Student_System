@@ -35,5 +35,14 @@ namespace CSharp_Student_System
                 conn.Open();
             }
         }
+
+        //create a function to close the connection
+        public void closeConnection()
+        {
+            if (conn.State == ConnectionState.Open)
+            {
+                conn.Close();
+            }
+        }
     }
 }
