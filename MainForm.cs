@@ -16,5 +16,50 @@ namespace CSharp_Student_System
         {
             InitializeComponent();
         }
+
+        private void studentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addNewStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddStudentForm addStudForm = new AddStudentForm();
+            addStudForm.Show(this);
+        }
+
+        private void studentsListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void staticsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void editRemoveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void manageStudentsFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+       
     }
 }
